@@ -487,7 +487,7 @@ color: yellowgreen;
 	display: flex;
 	flex-direction: column;
 }
-.gallary img{
+.gallary {
 	display: block;
 	height: 0px;
 }
