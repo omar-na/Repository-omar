@@ -1,0 +1,511 @@
+@import url('https://fonts.cdnfonts.com/css/scary-october');
+@import url('https://fonts.cdnfonts.com/css/gembrik');
+@import url('https://fonts.cdnfonts.com/css/film-cryptic');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+
+	background: url(photo_2024-07-19_01-54-22.jpg) ;
+}
+.intro{
+	
+	display: flex;
+
+}
+
+.logo img{
+
+width: 100%;    
+height: 25vh;
+}
+.nav{
+	color: yellowgreen;
+
+}
+
+.nav ul{
+	display: flex;
+	color: yellowgreen;
+	
+}
+.nav ul li {
+text-transform: uppercase;
+	padding: 20px 30px ;
+}
+
+.nav ul li a{
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+
+	color: yellowgreen;
+	font-family: 'Film Cryptic', sans-serif; 
+	font-size: 1.5rem;
+
+}
+.nav ul li a:hover{
+color: white;
+
+}
+.top{		
+	background-color: rgb(0, 0, 0,0.1);
+	animation: r;
+		animation-duration: 3s;
+		opacity: 0;
+		animation-fill-mode: forwards;
+}
+
+@keyframes r{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+	.sec{
+		margin: 0px 50px;
+		
+
+	}
+	.sec h3{
+		padding-top: 20px;
+		font-family: 'Film Cryptic', sans-serif; 
+		text-align: center;
+		color: transparent;
+		font-size: 1.8rem;
+		background: url(photo_2024-07-26_20-07-10.jpg) no-repeat center;
+		background-clip: text;
+		animation: cat 3s linear infinite;
+		text-transform: uppercase;
+		
+		  
+	}
+
+	@keyframes cat{
+		0%{background-position:0% 0%; }
+	
+	100%{
+		background-position:100% 0%;
+
+	}
+	}
+	.sec i{
+		padding: 0px 5px;
+		margin-bottom: 10px;
+		color: yellowgreen;
+	}
+.sec h2{
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+	line-height: 2;
+	color: yellowgreen;
+	font-family: 'Film Cryptic', sans-serif; 
+		font-size: 1.6rem;
+		letter-spacing: 1px;
+		animation: r;
+		animation-duration: 3s;
+		opacity: 0;
+		animation-fill-mode: forwards;
+text-align: center;	}
+	.sec i{
+		font-size: 24px;
+	}
+
+	/*BOOOOOOOOOOOOOOOOOOOOOOOWLS*/
+	
+/*sec*/
+
+.bb{
+    display: flex;
+    padding-top: 30px;
+
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.bow{
+margin: 50px 0px;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	overflow: hidden;
+    
+  
+}
+    .bow img{
+		
+		  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.9));
+
+        width: 85%;
+    }
+
+    .b3 img{
+        width: 100%;
+		}
+		.bb h1{
+			color: yellowgreen;
+		font-family: 'Film Cryptic', sans-serif;    
+		font-size: 65px;
+		letter-spacing: 0.5rem;
+		overflow: hidden;
+	 line-height: 5rem;
+	 text-transform: uppercase;
+ }
+
+
+
+.fb{
+
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.fb img{
+	width: 100%;
+}
+
+.nav-icon {
+	display: none; 
+  }
+  
+  .nav-icon1 {
+	display: none; 
+  }
+
+
+/*menuuuuuuuuuuuuuuuuuuuuu*/
+.menu{
+	margin-bottom: 20px;
+}
+.menu h1{
+	margin: 40px 0px;
+	text-align: center;
+	color: white;
+	font-family: 'Film Cryptic', sans-serif; 
+	font-size: 100px;
+	letter-spacing: 2.5px;
+
+	
+}
+.menu h2{
+
+	padding: 30px 20px;
+	text-align: center;
+
+	color: yellowgreen;
+	font-family: 'Film Cryptic', sans-serif; 
+	font-size: 50px;
+	overflow: hidden;
+	
+}
+.menu p{
+	text-align: center;
+
+	padding: 0px 10px;
+	color: white;
+	font-family: 'Film Cryptic', sans-serif; 
+	font-size: 30px;
+	line-height: 1.3;
+	overflow: hidden;
+
+	
+}
+
+
+
+/*loooooooooooooooooooooooc*/
+.loc {
+	
+	background: url(photo_2024-07-26_15-50-04.jpg)no-repeat center center/cover; ;
+	padding: 40px ;
+}
+.loc .c{
+	background-color: rgb(0, 0, 0,0.8);
+	width: 50%;
+	
+	margin-left: 25%;
+	text-align: center;
+	overflow: hidden;
+}
+.c  >div{
+padding: 10px ;
+}
+.loc h1{
+	padding: 0px 10px;
+	text-transform: uppercase;
+	color: yellowgreen;
+	line-height: 1.3;
+	font-family: 'Film Cryptic', sans-serif; 
+font-size: 40px;
+overflow: hidden;
+}
+.loc h2{
+	padding: 0px 10px;
+	text-transform: uppercase;
+	color: yellowgreen;
+	line-height: 1.3;
+	font-family: 'Film Cryptic', sans-serif; 
+font-size: 30px;overflow: hidden;
+}
+
+.phone h1{
+	padding-top: 20px;
+}
+
+.social i{
+	padding:0px 15px;
+}
+.social a{
+	color: yellowgreen;
+}
+
+.social i:hover{
+	color: white;
+}
+
+
+
+
+.menu-toggle {
+	display: none; /* hide the icon by default */
+	font-size: 24px;
+	cursor: pointer;
+	padding: 10px;
+	float: right; /* float the icon to the right */
+  }
+  
+  .menu-toggle:hover {
+	background-color: #333;
+	color: #fff;
+  }
+
+
+
+
+
+
+
+
+  .main-nav{
+	color: yellowgreen;
+
+}
+
+.main-nav ul{
+	display: flex;
+	color: yellowgreen;
+	
+}
+.main-nav ul li {
+text-transform: uppercase;
+	padding: 20px 30px ;
+}
+
+.main-nav ul li a{
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+
+	color: yellowgreen;
+	font-family: 'Film Cryptic', sans-serif; 
+	font-size: 1.5rem;
+
+}
+.main-nav ul li a:hover{
+color: white;
+
+}
+.about{
+    padding: 20px;
+    background-color: rgb(0, 0, 0,0.1);
+}
+.about p{
+    line-height: 1.3;
+font-size: 1.5rem;
+font-family: 'Film Cryptic', sans-serif; 
+color: yellowgreen;   
+
+}
+
+/*gallery*/
+.gallary{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+.gallary img{
+	padding: 20px;
+	width: 100%;
+	height: 65vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+	.menu-toggle i{
+		position: absolute;
+		top: 0%;
+		right: 0%;
+		padding: 10px;
+
+	}
+	
+
+	.menu-toggle {
+		display: block; /* show the icon on small screens */
+	  }
+	  .main-nav ul {
+		display: none; /* hide the navigation menu items by default */
+	  }
+	  .main-nav ul.show {
+		display: block; /* show the navigation menu items when the hamburger menu icon is clicked */
+	  }
+	  .main-nav ul {
+		display: none; /* hide the navigation menu items by default */
+	  }
+	  .main-nav-icon {
+		display: block; /* show the hamburger menu icon on small screens */
+		font-size: 24px;
+		cursor: pointer;
+		padding: 10px;
+		float: right; /* add this to float the icon to the right */
+	  }
+	  .main-nav-icon:hover {
+		background-color: #333;
+		color: #fff;
+	  }
+	  .main-nav ul.show {
+		display: block; /* show the navigation menu items when the hamburger menu icon is clicked */
+	  }
+	  
+	  .main-nav {
+		position: relative; /* add this to keep the menu within the screen */
+	  }
+  
+	.sec h2{
+
+		line-height: 1;
+	
+			font-size: 1rem;
+			letter-spacing: 1px;
+			
+		}
+		.bb i{
+			font-size: 25px;
+		}
+		.bb h1{
+			
+		line-height: 1;
+	
+		font-size: 2rem;
+		letter-spacing: 1px;
+		}
+
+	.nav ul {
+	  display: none; /* hide the navigation menu items by default */
+	}
+	.nav-icon {
+	  display: block; /* show the hamburger menu icon on small screens */
+	  font-size: 24px;
+	  cursor: pointer;
+	  padding: 10px;
+	  float: right; /* add this to float the icon to the right */
+	}
+	.nav-icon:hover {
+	  background-color: #333;
+	  color: #fff;
+	}
+	.nav ul.show {
+	  display: block; /* show the navigation menu items when the hamburger menu icon is clicked */
+	}
+	
+	.nav {
+	  position: relative; /* add this to keep the menu within the screen */
+	}
+	.sec {
+	  margin: 10px 20px; /* reduce the margin to make it smaller */
+	}
+	.sec i{
+		font-size: 20px;
+	}
+	.sec h2 {
+	  font-size: 1rem; /* reduce the font size to make it smaller */
+	  line-height: 1.5; /* adjust the line height to make it smaller*/}
+	  .bb h1{
+		font-size: 1.5rem;
+	 line-height: 1;
+	}
+	  .menu h1{
+		font-size: 50px;
+	
+		
+	}
+	.menu h2{
+
+		font-size: 40px;
+	}
+	.menu p{
+	
+		font-size: 20px;
+	}
+	
+	.c h2{
+
+			font-size: 12px;
+	}
+	
+	.c h1{
+	
+	font-size: 13px;
+	}
+	.about p{
+		font-size: 12px;
+
+	}
+	.intro
+{
+	display: flex;
+	flex-direction: column;
+}
+.gallary{
+	display: block;
+	height: 0px;
+}
+  }
+
+
+
+
+  /*360*/
+  @media only screen and (max-width: 360px) {
+	.c h2{
+
+		font-size: 7px;
+}
+
+.c h1{
+
+font-size: 8px;
+}
+.bb h1{
+	font-size: 1rem;
+ line-height: 1;
+}
+}
